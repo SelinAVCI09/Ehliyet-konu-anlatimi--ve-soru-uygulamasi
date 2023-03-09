@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96C3D6"
+    tools:context=".sorular10">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button36"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Yaralıları araçtan çıkarmak
+
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button37" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button37"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Kendisinin ve yaralıların güvenliğini sağlamak
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button39" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button38"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Yaralıları belirlemek
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button39"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Kazayı yetkililere haber vermek
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button38" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text=" Kaza yerine ulaşan ilk yardımcının öncelikle yapması gereken nedir? "
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="SORU 10"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

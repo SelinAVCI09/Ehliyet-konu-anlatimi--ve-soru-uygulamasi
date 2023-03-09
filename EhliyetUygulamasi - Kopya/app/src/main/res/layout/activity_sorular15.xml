@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96C3D6"
+    tools:context=".sorular15">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button56"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="D
+
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button57" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button57"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="C
+
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button58" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button58"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="B
+
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button59" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button59"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="A
+
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="SORU 15"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="441dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+</androidx.constraintlayout.widget.ConstraintLayout>

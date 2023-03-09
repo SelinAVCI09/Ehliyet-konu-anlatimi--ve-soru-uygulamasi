@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96C3D6"
+    tools:context=".konubilgileri">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonkonu3"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/butonarkaplan"
+        android:clickable="true"
+        android:text="TRAFİK KONU ANLATIMI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonkonu2"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:clickable="true"
+        android:text="MOTOR KONU ANLATIMI"
+        app:layout_constraintBottom_toTopOf="@+id/buttonkonu4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonkonu3"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonkonu4"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/butonarkaplan"
+        android:clickable="true"
+        android:text=" İLK YARDIM KONU ANLATIMI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonkonu2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/changa_one_italic"
+        android:text="KONU BASLIKLARI"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

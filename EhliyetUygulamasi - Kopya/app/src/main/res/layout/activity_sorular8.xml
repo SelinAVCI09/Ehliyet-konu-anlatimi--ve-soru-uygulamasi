@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96C3D6"
+    tools:context=".sorular8">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button31"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Uyluk kemiği
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button30" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button30"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Kaburga kemiği
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button29" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button29"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Kaval kemiği
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button28" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button28"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Pazı kemiği"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Aşağıdakilerden hangisinin kaza anında kırılması hâlinde, akciğerlere batarak zarar verme ihtimali daha fazladır?"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="SORU 8"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

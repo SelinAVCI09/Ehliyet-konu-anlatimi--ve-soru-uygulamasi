@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96C3D6"
+    tools:context=".sorular11">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button40"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Yaralıda yeni bir yaralanma meydana gelmemesine
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button41" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button41"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Kaza yapan araca hasar verilmemesine
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button42" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button42"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Kazayı seyredenlerin uzaklaştırılmasına
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button43" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button43"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Hızlı ve aceleci davranmaya
+
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="372dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text=" Yaralının araçtan çıkarılması esnasında en çok hangisine dikkat edilmelidir? "
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="SORU 11"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

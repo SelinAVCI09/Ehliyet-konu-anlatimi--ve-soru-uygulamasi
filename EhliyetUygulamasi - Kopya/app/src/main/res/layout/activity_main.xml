@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96C3D6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/changa_one_italic"
+        android:text="UYGULAMAYA HOSGELDİNİZ"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonkonu"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="487dp"
+        android:background="@drawable/butonarkaplan"
+        android:clickable="true"
+        android:text="KONU BİLGİLERİ İÇİN TIKLAYINIZ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonsoru"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonsoru"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="SORULAR İÇİN TIKLAYINIZ"
+        app:layout_constraintBottom_toTopOf="@+id/buttonkonu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints,UnknownId" />
+</androidx.constraintlayout.widget.ConstraintLayout>
